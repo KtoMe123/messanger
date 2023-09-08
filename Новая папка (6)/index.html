@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <div class="left-side__header">
+                <div class="user">
+                    <div class="main-user__img">
+                        <img src="img/profile.png" alt="profile" class="cover">
+                    </div>
+                    <ul class="nav-icons">
+                        <li class="nav-icon"><ion-icon name="scan-circle-outline"></ion-icon></li>
+                        <li class="nav-icon"><ion-icon name="chatbox"></ion-icon></li>
+                        <li class="nav-icon"><ion-icon name="ellipsis-vertical"></ion-icon></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="search-chat">
+                <div class="search-chat__input">
+                    <input class="search-input" type="text" placeholder="Search or start new chat">
+                    <ion-icon class="search-icon" name="search-outline"></ion-icon>
+                </div>
+            </div>
+
+            <div class="chat-list" id="main-chat-list">
+                <div class="chat-list__item chat-list__item_unread" id="0">
+                    <div class="chat-list__img"><img src="img/user(1).png" alt="user"></div>
+                    <div class="chat-list__info">
+                        <div class="chat-list__head">
+                            <h4 class="chat-list__name">Muhammad Shayan</h4> 
+                            <p class="chat-list__time">23:35</p>
+                        </div>
+                        <div class="chat-list__message">
+                            <p class="chat-message">How to make Whatsapp clone using html and css!</p>
+                            <b class="message-unread">1</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-list__item chat-list__item_unread" id="1">
+                    <div class="chat-list__img"><img src="img/user(1).png" alt="user"></div>
+                    <div class="chat-list__info">
+                        <div class="chat-list__head">
+                            <h4 class="chat-list__name">Bratan</h4> 
+                            <p class="chat-list__time">20:20</p>
+                        </div>
+                        <div class="chat-list__message">
+                            <p class="chat-message">How to make Whatsapp clone using html and css!</p>
+                            <b class="message-unread">2</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-list__item chat-list__item_active" id="2">
+                    <div class="chat-list__img"><img src="img/user(1).png" alt="user"></div>
+                    <div class="chat-list__info">
+                        <div class="chat-list__head">
+                            <h4 class="chat-list__name">Prikolist</h4> 
+                            <p class="chat-list__time">10:10</p>
+                        </div>
+                        <div class="chat-list__message">
+                            <p class="chat-message">How to make Whatsapp clone using html and css!</p>
+                            <b class="message-unread">1</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-list__item chat-list__item_active" id="3">
+                    <div class="chat-list__img"><img src="img/user(1).png" alt="user"></div>
+                    <div class="chat-list__info">
+                        <div class="chat-list__head">
+                            <h4 class="chat-list__name">DeadInside</h4> 
+                            <p class="chat-list__time">09:50</p>
+                        </div>
+                        <div class="chat-list__message">
+                            <p class="chat-message">How to make Whatsapp clone using html and css!</p>
+                            <b class="message-unread">1</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-list__item chat-list__item_active" id="4">
+                    <div class="chat-list__img"><img src="img/user(1).png" alt="user"></div>
+                    <div class="chat-list__info">
+                        <div class="chat-list__head">
+                            <h4 class="chat-list__name">Abu</h4> 
+                            <p class="chat-list__time">03:35</p>
+                        </div>
+                        <div class="chat-list__message">
+                            <p class="chat-message">How to make Whatsapp clone using html and css!</p>
+                            <b class="message-unread">1</b>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+        
+        <div class="right-side">
+
+            <div class="right-side__list">
+                <div class="right-side__item right-side__item_default">
+                    <div class="right-side__welcome">Welcome to Whatsapp</div>
+                </div>
+                <div class="right-side__item" id="frame-chat-1">
+                    <div class="right-side__header">
+                        <div class="user">
+                            <div class="user__info">
+                                <div class="user__img">
+                                    <img src="img/user(1).png" alt="user" class="cover">
+                                </div>
+                                <div class="user__name">Muhammad Shayan <br> <span class="frame-online">online</span></div>
+                            </div>
+                                
+                            <ul class="nav-icons">
+                                <li class="nav-icon"><ion-icon name="scan-circle-outline"></ion-icon></li>
+                                <li class="nav-icon"><ion-icon name="chatbox"></ion-icon></li>
+                                <li class="nav-icon"><ion-icon name="ellipsis-vertical"></ion-icon></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="chat-box">
+                        <div class="chat-box__content">
+                            <div class="chat-box__message chat-box__message_my">
+                                <p class="chat-box__text">Hi <br><span class="chat-box__time">12:32</span></p>
+                            </div>
+                            <div class="chat-box__message chat-box__message_frend">
+                                <p class="chat-box__text">Hi <br><span class="chat-box__time">12:32</span></p>
+                            </div>
+                        </div>
+
+                        <div class="chat-box__input">
+                            <ion-icon class="chat-box__icon" name="happy-outline"></ion-icon>
+                            <ion-icon class="chat-box__icon" name="attach-outline"></ion-icon>
+                            <input type="text" placeholder="Type a message">
+                            <ion-icon class="chat-box__icon" name="mic"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-side__item" id="frame-chat-2">
+                    <div class="right-side__header">
+                        <div class="user">
+                            <div class="user__info">
+                                <div class="user__img">
+                                    <img src="img/user(1).png" alt="user" class="cover">
+                                </div>
+                                <div class="user__name">Bratan <br> <span class="frame-online">online</span></div>
+                            </div>
+                                
+                            <ul class="nav-icons">
+                                <li class="nav-icon"><ion-icon name="scan-circle-outline"></ion-icon></li>
+                                <li class="nav-icon"><ion-icon name="chatbox"></ion-icon></li>
+                                <li class="nav-icon"><ion-icon name="ellipsis-vertical"></ion-icon></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="chat-box">
+                        <div class="chat-box__content">
+                            <div class="chat-box__message chat-box__message_my">
+                                <p class="chat-box__text">Hello! <br><span class="chat-box__time">12:32</span></p>
+                            </div>
+                            <div class="chat-box__message chat-box__message_frend">
+                                <p class="chat-box__text">Hello! <br><span class="chat-box__time">12:32</span></p>
+                            </div>
+                        </div>
+
+                        <div class="chat-box__input">
+                            <ion-icon class="chat-box__icon" name="happy-outline"></ion-icon>
+                            <ion-icon class="chat-box__icon" name="attach-outline"></ion-icon>
+                            <input type="text" placeholder="Type a message">
+                            <ion-icon class="chat-box__icon" name="mic"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-side__item" id="frame-chat-3">
+                    <div class="right-side__header">
+                        <div class="user">
+                            <div class="user__info">
+                                <div class="user__img">
+                                    <img src="img/user(1).png" alt="user" class="cover">
+                                </div>
+                                <div class="user__name">Prikolist <br> <span class="frame-online">offline</span></div>
+                            </div>
+                                
+                            <ul class="nav-icons">
+                                <li class="nav-icon"><ion-icon name="scan-circle-outline"></ion-icon></li>
+                                <li class="nav-icon"><ion-icon name="chatbox"></ion-icon></li>
+                                <li class="nav-icon"><ion-icon name="ellipsis-vertical"></ion-icon></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="chat-box">
+                        <div class="chat-box__content">
+                            <div class="chat-box__message chat-box__message_my">
+                                <p class="chat-box__text">Buenos días! <br><span class="chat-box__time">12:32</span></p>
+                            </div>
+                            <div class="chat-box__message chat-box__message_frend">
+                                <p class="chat-box__text">Buenos días! <br><span class="chat-box__time">12:32</span></p>
+                            </div>
+                        </div>
+
+                        <div class="chat-box__input">
+                            <ion-icon class="chat-box__icon" name="happy-outline"></ion-icon>
+                            <ion-icon class="chat-box__icon" name="attach-outline"></ion-icon>
+                            <input type="text" placeholder="Type a message">
+                            <ion-icon class="chat-box__icon" name="mic"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-side__item" id="frame-chat-4">
+                    <div class="right-side__header">
+                        <div class="user">
+                            <div class="user__info">
+                                <div class="user__img">
+                                    <img src="img/user(1).png" alt="user" class="cover">
+                                </div>
+                                <div class="user__name">DeadInside <br> <span class="frame-online">offline</span></div>
+                            </div>
+                                
+                            <ul class="nav-icons">
+                                <li class="nav-icon"><ion-icon name="scan-circle-outline"></ion-icon></li>
+                                <li class="nav-icon"><ion-icon name="chatbox"></ion-icon></li>
+                                <li class="nav-icon"><ion-icon name="ellipsis-vertical"></ion-icon></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="chat-box">
+                        <div class="chat-box__content">
+                            <div class="chat-box__message chat-box__message_my">
+                                <p class="chat-box__text">Guten Tag <br><span class="chat-box__time">12:32</span></p>
+                            </div>
+                            <div class="chat-box__message chat-box__message_frend">
+                                <p class="chat-box__text">Guten Tag <br><span class="chat-box__time">12:32</span></p>
+                            </div>
+                        </div>
+
+                        <div class="chat-box__input">
+                            <ion-icon class="chat-box__icon" name="happy-outline"></ion-icon>
+                            <ion-icon class="chat-box__icon" name="attach-outline"></ion-icon>
+                            <input type="text" placeholder="Type a message">
+                            <ion-icon class="chat-box__icon" name="mic"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-side__item" id="frame-chat-5">
+                    <div class="right-side__header">
+                        <div class="user">
+                            <div class="user__info">
+                                <div class="user__img">
+                                    <img src="img/user(1).png" alt="user" class="cover">
+                                </div>
+                                <div class="user__name">Abu <br> <span class="frame-online">offline</span></div>
+                            </div>
+                                
+                            <ul class="nav-icons">
+                                <li class="nav-icon"><ion-icon name="scan-circle-outline"></ion-icon></li>
+                                <li class="nav-icon"><ion-icon name="chatbox"></ion-icon></li>
+                                <li class="nav-icon"><ion-icon name="ellipsis-vertical"></ion-icon></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="chat-box">
+                        <div class="chat-box__content">
+                            <div class="chat-box__message chat-box__message_my">
+                                <p class="chat-box__text">Buongiorno <br><span class="chat-box__time">12:32</span></p>
+                            </div>
+                            <div class="chat-box__message chat-box__message_frend">
+                                <p class="chat-box__text">Buongiorno <br><span class="chat-box__time">12:32</span></p>
+                            </div>
+                        </div>
+
+                        <div class="chat-box__input">
+                            <ion-icon class="chat-box__icon" name="happy-outline"></ion-icon>
+                            <ion-icon class="chat-box__icon" name="attach-outline"></ion-icon>
+                            <input type="text" placeholder="Type a message">
+                            <ion-icon class="chat-box__icon" name="mic"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="right-side__info">
+                <div class="info__header">
+                    <div class="info__main">
+                        <ion-icon name="close" class="info__icon-close" id="info__icon-close"></ion-icon>
+                        <div class="info__title">Данные контакта</div>
+                    </div>
+                </div>
+
+                <div class="info__content">
+                    <div class="info__main-info">
+                        <img src="img/user(1).png" alt="user" class="info__img">
+                        <div class="info__number">+0-000-000-000</div>
+                        <div class="info__username">name</div>
+                    </div>
+                    <div class="info__additional-info">
+                        <div class="additional-info__title">Сведения</div>
+                        <div class="additional-info__text">Занят(-а)</div>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/jj.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
